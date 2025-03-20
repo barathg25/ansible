@@ -13,6 +13,7 @@ cp the key from .ssh/.pub  to The host server to .ssh/authoriesd key
 Add ip in vi /etc/ansible/hosts
 # 
 [servers]
+
 server1 ansible_host=52.66.250.0 (slave-server ip)
 
 server2 ansible_host=42.46.50.20 (slave-server  ip)
